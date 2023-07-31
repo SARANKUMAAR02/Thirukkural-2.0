@@ -36,7 +36,7 @@ function Thirukkural(){
     .catch((err)=>{
         document.getElementById('auth').innerHTML=""
         document.getElementById('line1').innerHTML=`CHECK YOUR NETWORK CONNECTION (OR)`;
-        document.getElementById('line2').innerHTML=`I HAVE ADDED ONLY 10 குறள்`;
+        document.getElementById('line2').innerHTML=`குறள் COUNT(1330) EXCEEDED`;
 
     })
     
