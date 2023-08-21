@@ -28,9 +28,10 @@ function Thirukkural(){
         document.getElementById('auth').innerHTML="-திருவள்ளுவர்"
     })
     .catch((err)=>{
+        document.getElementById('tit').innerHTML=""
         document.getElementById('auth').innerHTML=""
         document.getElementById('line1').innerHTML=`CHECK YOUR NETWORK CONNECTION (OR)`;
-        document.getElementById('line2').innerHTML=`I HAVE ADDED ONLY 10 குறள்`;
+        document.getElementById('line2').innerHTML=`குறள் COUNT(1330) EXCEEDED`;
 
     })
     
