@@ -4,17 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>திருக்குறள்</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="./icon.jpg">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=thPNm59J"></script>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
 </head>
-<body>
-    <div id="wrapper">
-    <h1>திருக்குறள்</h2>
-    <h1 id="tit"></h2>
-    <h2 id="line1"></h2></h1>
-    <h2 id="line2"></h1>
-    <h2 id="auth"></h2>
+<body style="display: flex;justify-content:center;align-items:center;width: 100vw;height: 90vh; max-height: 98vh;">
+    <div id="wrapper" style="max-width: 95%; max-height: 80%; overflow:hidden;">
+        <h1 id="thiru" style="text-align:center">திருக்குறள்</h1>
+        <h2 id="tit" style="text-align:center"></h2>
+        <h2 id="line1" style="text-align:left"></h2>
+        <h2 id="line2" style="text-align:left"></h2>
+        <h2 id="auth" style="text-align:right"></h2>
+        <div style="padding-top: 50px; padding-left: 0%; display:flex; justify-content: center;">
+            <input id="txt" placeholder="TYPE THIRUKKURAL NO" fdprocessedid="w4dix" style="width: 250px; border-color: red; padding: 2px;">
+            <button fdprocessedid="58d2b8" style="cursor: pointer;" id="btn" >Search</button>
+        </div>
     </div>
-    <script src="script.js"></script>
+    
+    
+    
+    <script src="./script.js"></script>
+    
 </body>
 </html>
