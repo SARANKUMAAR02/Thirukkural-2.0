@@ -86,8 +86,9 @@ body{
   }
 
   .userinput{
+    margin-top: 40px;
     display: flex;
-    gap: 40px;
+    gap: 55px;
     justify-content: center;
     align-items: center;
   }
