@@ -46,7 +46,7 @@ btn.addEventListener('click',Thirukkural)
 function Thirukkural(){
 
     let a=Number(document.getElementById('txt').value)
-    fetch('https://api-production-f819.up.railway.app/work/thiru/api?id='+a)
+    fetch('https://thirukkural-9382.onrender.com/work/thiru/api?id='+a)
     .then((res)=>{
         console.log(res)
         if(res.ok){
