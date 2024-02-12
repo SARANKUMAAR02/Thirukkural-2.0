@@ -5,7 +5,7 @@ This webpage allows users to retrieve Thirukkural verses and related information
 
 # Link for hosted api
 
-link 1 : https://api-production-f819.up.railway.app/work/thiru/api?id= "Type here the number you want (1-1330)"
+link 1 : https://thirukkural-9382.onrender.com/work/thiru/api?id= "Type here the number you want (1-1330)"
 
 # Screenshots
 
